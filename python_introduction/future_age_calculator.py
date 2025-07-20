@@ -1,3 +1,8 @@
-current_age = int(input("How old are you? "))
-age = current_age + 27 
-print("in 2050, you will be", age, "years old") 
+secret = 7
+guess_count = 0
+guess = ""
+while guess != secret:
+    guess_count += 1
+    guess = int(input("input it: "))
+
+print("correct")

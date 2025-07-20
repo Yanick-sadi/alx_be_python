@@ -1,7 +1,16 @@
-monthly_income = int(input("Enter your monthly income:"))
-monthly_expenses = int(input("Enter your total monthly expenses:"))
-monthly_savings = monthly_income-monthly_expenses
-interest_rate = 0.05
-projected_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
-print("your monthly savings are $", monthly_savings)
-print("projected savings after one year, with interest, is:$", projected_savings)
+import random
+
+
+secret_number = random.randint(1, 10)
+
+user_guess = int(input("guess the number btn 1 and 10: "))
+
+
+if user_guess > secret_number:
+        print(" higher than mine")
+elif user_guess < secret_number:
+         print("lower than mine")
+elif user_guess == secret_number:
+         print("well done")
+
+
