@@ -1,3 +1,4 @@
+
 user_input = input("what's the weather like today?(sunny/rainy/cold):").lower()
 
 if user_input == "sunny":
