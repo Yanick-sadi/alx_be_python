@@ -22,12 +22,13 @@ def calculate_future_date(days_to_add):
     # Format future date as 'YYYY-MM-DD'
     formatted_future_date = future_date.strftime("%Y-%m-%d")
 
-    # Print the result
-    print(f"Future date after {days_to_add} days: {formatted_future_date}")
+    # Return the formatted date
+    return formatted_future_date
 
 # Ask user for input
 try:
     days = int(input("Enter number of days to add: "))
-    calculate_future_date(days)
+    result = calculate_future_date(days)
+    print(f"Future date after {days} days: {result}")
 except ValueError:
     print("Invalid input! Please enter an integer.")
