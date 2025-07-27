@@ -33,7 +33,7 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == '1':
-            item = input("Enter item to add: ").strip()
+            item = input("Enter the item to add: ").strip()
             pass
         elif choice == '2':
             item = input("enter item to remove").strip()
