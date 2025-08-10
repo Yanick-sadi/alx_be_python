@@ -1,6 +1,6 @@
 class Calculator:
 
-    calculation_type = "Arthinetic Operations"
+    calculation_type = "Arthimetic Operations"
     
     @staticmethod
     def add(a,b):
